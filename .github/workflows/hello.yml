@@ -1,49 +1,4 @@
-# name: Say hello
-
-# on:
-#     push:
-#         branches:
-#             - main
-
-# jobs:
-#     hello_world:
-#         runs-on: ubuntu 18.04
-#         steps:
-#             - name: Echo the message
-#               run: echo "Hello World"
-
-
-# name: Say hello 2
-
-# on:
-#     push:
-#         branches:
-#             - main
-# job: 
-#     hello_worldjobdos:
-#         runs-on: ubuntu-18.04
-#         steps:
-#             - name: Echo the message
-#             run: echo "Hello_worldjobdos"
-
-
-# name: Say_worldtres
-
-# on:
-#     push:
-#         branches:
-#             - main
-# job:
-#     job_tres:
-#         runs_on: ubuntu-18.04
-#         steps:
-#             - name: stepstres
-#             run: echo "Probando workflow tercer intento"
-
-
-
-
-name: quintointento
+name: sextointento
 
 on:
     push:
@@ -54,6 +9,6 @@ job:
     jobcuatro:
         runs-on: ubuntu-18.04
         steps:
-            - name: stetpquinto
-            run: echo "Hola quinto intento"
+            - name: stetpsexto
+            run: echo "Hola sexto intento"
 
